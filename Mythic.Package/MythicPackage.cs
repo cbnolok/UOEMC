@@ -366,7 +366,7 @@ namespace Mythic.Package
 		}
 
 		/// <summary>
-		/// Adds a multiple files, located in <paramref name="fileName"/>, to <see cref="Mythic.Package.MythicPackageBlock.Files"/> table.
+		/// Adds a multiple files, located in <paramref name="innerFolder"/>, to <see cref="Mythic.Package.MythicPackageBlock.Files"/> table.
 		/// </summary>
 		/// <param name="fileNames">Array of file paths on HD.</param>
 		/// <param name="innerFolder">Relative folder within KR (destination).</param>
@@ -445,7 +445,7 @@ namespace Mythic.Package
 
 		#region Save
 		/// <summary>
-		/// Saves block to <paramref name="writer"/>.
+		/// Saves block to <paramref name="fileName"/>.
 		/// </summary>
 		/// <param name="fileName">Name of the file (Destination).</param>
 		public void Save( string fileName )
@@ -580,7 +580,7 @@ namespace Mythic.Package
 		}
 
 		/// <summary>
-		/// Unpacks all files in the <paramref name="block"/> in this package to <paramref name="folder"/> from <paramref name="source"/>.
+		/// Unpacks all files in the <paramref name="block"/> in this package to <paramref name="folder"/> from <paramref name="fullPath"/>.
 		/// </summary>
 		/// <param name="folder">Destination folder.</param>
 		/// <param name="fullPath">Does it retain KR folder structure.</param>
@@ -594,7 +594,7 @@ namespace Mythic.Package
 		}
 
 		/// <summary>
-		/// Unpacks a file in <paramref name="block"/> in this package to <paramref name="folder"/> from <paramref name="source"/>.
+		/// Unpacks a file in <paramref name="block"/> in this package to <paramref name="folder"/> from <paramref name="fullPath"/>.
 		/// </summary>
 		/// <param name="folder">Destination folder.</param>
 		/// <param name="fullPath">Does it retain KR folder structure.</param>

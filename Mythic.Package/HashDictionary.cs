@@ -293,7 +293,7 @@ namespace Mythic.Package
 		}
 
 		/// <summary>
-		/// Saves dictionary to the <paramref name="path"/>.
+		/// Saves dictionary to the <paramref name="fileName"/>.
 		/// </summary>
 		/// <param name="fileName">Path on the HD.</param>
 		public static void SaveDictionary( string fileName )

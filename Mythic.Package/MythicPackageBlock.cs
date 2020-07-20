@@ -386,10 +386,10 @@ namespace Mythic.Package
 					}
 				}
 			}
-		}		
+		}
 
 		/// <summary>
-		/// Unpacks file at <paramref name="index"/> in this block to <paramref name="folder"/> from <paramref name="source"/>.
+		/// Unpacks file at <paramref name="index"/> in this block to <paramref name="folder"/> from <paramref name="fullPath"/>.
 		/// </summary>
 		/// <param name="folder">Destination folder.</param>
 		/// <param name="fullPath">Does it retain KR folder structure.</param>

@@ -515,7 +515,7 @@ namespace Mythic.Package
 		}
 
 		/// <summary>
-		/// Unpacks this file<paramref name="source"/>.
+		/// Unpacks this file<paramref name="myp"/>.
 		/// </summary>
 		/// <param name="myp">Path to mythic package.</param>
 		/// <returns>Binary data from this file.</returns>
