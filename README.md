@@ -1,0 +1,2 @@
+# UO Enhanced Map Converter
+Graphical tool to convert Ultima Online Classic Client map files (mapX.mul, staticsX.mul, staticsXidx.mul, radarcol.mul) into Enhanced Client map files (facetX.uop and facet_0X.dds).
